@@ -1,0 +1,38 @@
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.text-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 5px 10px;
+}
+
+.text,
+.meanings {
+  font-size: 14px;
+  margin: 0;
+}
+
+.options {
+  max-height: 390px;
+  overflow-y: auto;
+  padding: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 5px 35px rgba(44, 72, 154, 0.2);
+  background-color: #fff;
+}
+
+.part-speech {
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 14px;
+  padding: 0 10px;
+  color: var(--blue);
+}

@@ -1,0 +1,36 @@
+.item {
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
+.item:hover,
+.item:focus {
+  background-color: #eee;
+  outline: none;
+}
+
+.text {
+  font-size: 14px;
+  margin: 0;
+}
+
+.hover {
+  display: none;
+  position: absolute;
+  top: 0;
+  padding: 10px;
+  width: 280px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hover-active {
+  display: flex;
+}
+
+.definition {
+  margin: 0;
+  margin-left: 10px;
+  font-size: 14px;
+  color: #fff;
+}

@@ -1,0 +1,48 @@
+.search-offers {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 300px;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+  box-shadow: 0 5px 35px rgba(44, 72, 154, 0.2);
+  background-color: #fff;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  cursor: pointer;
+}
+
+.item:hover,
+.item:focus {
+  background-color: #eee;
+  outline: none;
+}
+
+.text-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 10px;
+}
+
+.text,
+.meanings {
+  font-size: 14px;
+  margin: 0;
+}
+
+.meanings {
+  display: flex;
+  justify-content: space-between;
+  min-width: 88px;
+  color: rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,61 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:root {
+  --light-blue: #f4f9ff;
+  --orange: #fd9352;
+  --blue: #4073ff;
+  --green: #8bde1a;
+  --red: #fd5252;
+  --gray: #888888;
+  --main: #333;
+}
+
+body {
+  position: relative;
+  margin: 0 auto;
+  padding: 50px 0;
+  font-size: 16px;
+  font-family: "Roboto", "Verdana", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--main);
+  opacity: 1;
+  max-width: 320px;
+  overflow-x: hidden;
+  background-color: var(--light-blue);
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.sound {
+  display: block;
+  height: 19px;
+  width: 40px;
+  border: none;
+  background-image: url("./../images/speaker.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 19px 19px;
+  opacity: 1;
+  cursor: pointer;
+  outline: none;
+  background-color: #fff;
+}
+
+.sound:hover,
+.sound:focus {
+  opacity: 0.6;
+}

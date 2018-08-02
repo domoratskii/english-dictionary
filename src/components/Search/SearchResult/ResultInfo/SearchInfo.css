@@ -1,0 +1,36 @@
+.head-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading {
+  font-size: 19px;
+  margin: 0;
+}
+
+.word-translation {
+  max-width: 240px;
+  font-size: 15px;
+  color: var(--gray);
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.definition {
+  margin: 0;
+}
+
+.transcription {
+  max-width: 240px;
+  font-size: 15px;
+  color: var(--gray);
+  margin: 0;
+}
+
+.part-of-speech {
+  max-width: 240px;
+  font-size: 15px;
+  color: var(--gray);
+  margin: 0;
+  margin-bottom: 10px;
+}
